@@ -389,6 +389,24 @@ impl<'a> Holder<'a> {
 - 字符串字面值是 `&'static str`
 - 不要把 `'static` 当作“修错误的万能药”；多数时候应修正借用关系/返回拥有所有权的值
 
+```rust
+fn main() {
+    // 字符串字面值的生命周期贯穿整个程序
+    let s: &'static str = "I have a static lifetime.";
+    println!("{s}");
+}
+```
+
+一个常见误区（不要这样“修复”借用问题）：
+
+```rust
+// ❌ 错误示例：把局部 String 的引用强行当成 'static 是不可能的
+fn bad() -> &'static str {
+    let s = String::from("hello");
+    &s[..]
+}
+```
+
 ## 4. 组合：泛型 + trait bounds + 生命周期
 
 ```rust
