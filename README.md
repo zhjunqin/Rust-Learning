@@ -4,8 +4,12 @@
 
 Rust 程序设计语言笔记
 
-- [`trpl/cargo/README.md`](trpl/cargo/README.md) - Cargo 上手（ch01-00~ch01-03）
-- [`trpl/basic_concepts/README.md`](trpl/basic_concepts/README.md) - 常见编程概念（ch03-00~ch03-05）
-- [`trpl/ownership/README.md`](trpl/ownership/README.md) - 所有权/借用/slice（ch04-01~ch04-03）
-- [`trpl/struct/README.md`](trpl/struct/README.md) - 结构体与方法（ch05-00~ch05-03）
-- [`trpl/enums/README.md`](trpl/enums/README.md) - 枚举与模式匹配（ch06-00~ch06-03）
+- [ch01: Cargo 上手](trpl/cargo/README.md)
+- [ch03: 常见编程概念](trpl/basic_concepts/README.md)
+- [ch04: 所有权/借用/slice](trpl/ownership/README.md)
+- [ch05: 结构体与方法](trpl/struct/README.md)
+- [ch06: 枚举与模式匹配](trpl/enums/README.md)
+- [ch07: 包/Crate/模块系统](trpl/packages_crates_modules/README.md)
+- [ch08: 常见集合](trpl/collections/README.md)
+- [ch09: 错误处理](trpl/error_handling/README.md)
+- [ch10: 泛型/Trait/生命周期](trpl/generics/README.md)
