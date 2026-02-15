@@ -13,3 +13,4 @@ Rust 程序设计语言笔记
 - [ch08: 常见集合](trpl/collections/README.md)
 - [ch09: 错误处理](trpl/error_handling/README.md)
 - [ch10: 泛型/Trait/生命周期](trpl/generics/README.md)
+- [ch11: 测试](trpl/testing/README.md)
