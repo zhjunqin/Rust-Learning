@@ -14,3 +14,6 @@ Rust 程序设计语言笔记
 - [ch09: 错误处理](trpl/error_handling/README.md)
 - [ch10: 泛型/Trait/生命周期](trpl/generics/README.md)
 - [ch11: 测试](trpl/testing/README.md)
+- [ch12: I/O 项目（minigrep）](trpl/io_project/README.md)
+- [ch13: 函数式特性（闭包/迭代器）](trpl/functional_features/README.md)
+- [ch14: Cargo/crates.io 进阶](trpl/cargo_more/README.md)
